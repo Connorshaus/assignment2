@@ -1,0 +1,92 @@
+3E.a
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 784 bytes | 112.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Connorshaus/assignment2.git
+   f4975e5..f3e649f  master -> master
+
+3E.b
+$ git rev-list --count HEAD
+9
+
+3E.b
+$ git rev-list --count HEAD
+9
+
+3E.b
+$ git rev-list --count HEAD
+9
+
+3E.c
+$ git log --follow -p -- .gitignore
+commit e424a923e80da4772ca789591ef3326230062a71
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Wed Sep 25 18:13:30 2019 -0400
+
+    -> Tracking .gitignore
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..f9bb546
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,3 @@
++pom.xml
++CMakeLists.txt
++cmake-build-debug/
+
+3E.d
+- You can have multiple versions of the same master branch.
+- They help you organize workflow more easily and efficiently.
+
+3E.e
+`git log` shows the commit logs
+`git status` displays paths that are different between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git. 
+
+3E.c
+$ git log --follow -p -- .gitignore
+commit e424a923e80da4772ca789591ef3326230062a71
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Wed Sep 25 18:13:30 2019 -0400
+
+    -> Tracking .gitignore
+
+    diff --git a/.gitignore b/.gitignore
+    new file mode 100644
+    index 0000000..f9bb546
+    --- /dev/null
+    +++ b/.gitignore
+    @@ -0,0 +1,3 @@
+    +pom.xml
+    +CMakeLists.txt
+    +cmake-build-debug/
+
+3E.d
+- You can have multiple versions of the same master branch.
+- They help you organize workflow more easily and efficiently.
+
+3E.e
+`git log` shows the commit logs
+`git status` displays paths that are different between the index file and the current HEAD commit, paths that have differences betweent he working tree and the index file, and paths in the working tree that are not tracked by Git. 
+
+3E.f
+git log --follow -- Vehicle.h
+
+3E.g
+git log --all --grep='file'
+
+3E.h
+Inheritance is when one object or class is based off of another object or class.
+Polymorphism is the ability for a machine to process objects dependent on their class.
+Encapsulation refers to te ability to bundle data and methods that work on data within a single unit (or class).
+
+3E.i
+In a "Dictator and Lietenants" workflow, there is one centeralized repo that everyone makes a pull from, however the dictator is the only one who can push to it. 
+In an "Integration Manager" workflow, each dev makes pushes to their own public repository and pull from a centralized one (like this assignment).
+
+
