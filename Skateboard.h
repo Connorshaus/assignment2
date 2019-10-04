@@ -1,5 +1,5 @@
 //
-// Created by Esteban Parra on 9/5/19.
+// Created by Connor Hausmann.
 //
 
 #ifndef DRIVINGSIMULATOR_BICYCLE_H
