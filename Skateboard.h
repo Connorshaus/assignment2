@@ -2,8 +2,8 @@
 // Created by Connor Hausmann.
 //
 
-#ifndef DRIVINGSIMULATOR_BICYCLE_H
-#define DRIVINGSIMULATOR_BICYCLE_H
+#ifndef DRIVINGSIMULATOR_SKATEBOARD_H
+#define DRIVINGSIMULATOR_SKATEBOARD_H
 
 #include "Vehicle.h"
 
@@ -21,4 +21,4 @@ public:
     virtual string toString();
 };
 
-
+#endif //DRIVINGSIMULATOR_SKATEBOARD_H

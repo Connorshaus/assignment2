@@ -2,8 +2,8 @@
 // Created by Connor Hausmann
 //
 
-#ifndef DRIVINGSIMULATOR_CAR_H
-#define DRIVINGSIMULATOR_CAR_H
+#ifndef DRIVINGSIMULATOR_JET_H
+#define DRIVINGSIMULATOR_JET_H
 
 #include "PoweredVehicle.h"
 
@@ -26,4 +26,4 @@ public:
 };
 
 
-#endif //DRIVINGSIMULATOR_CAR_H
+#endif //DRIVINGSIMULATOR_JET_H
