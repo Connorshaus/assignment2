@@ -89,4 +89,5 @@ Encapsulation refers to te ability to bundle data and methods that work on data 
 In a "Dictator and Lietenants" workflow, there is one centeralized repo that everyone makes a pull from, however the dictator is the only one who can push to it. 
 In an "Integration Manager" workflow, each dev makes pushes to their own public repository and pull from a centralized one (like this assignment).
 
-
+5.
+I believe that this program uses Encapsulation because we are passing in many different vehicle types to both the Vehicle and PoweredVehicle classes that are already created.
